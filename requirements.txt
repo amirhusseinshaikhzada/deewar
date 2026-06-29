@@ -1,0 +1,30 @@
+# --- Web Framework & Server ---
+flask
+werkzeug
+
+# --- Telegram Bot API ---
+python-telegram-bot
+
+# --- Data Analysis & Science ---
+pandas
+numpy
+matplotlib
+
+# --- Database & ORM ---
+sqlalchemy
+# برای استفاده از sqlite نیاز به نصب اضافی نیست، اما اگر بخواهید از PostgreSQL استفاده کنید:
+# psycopg2-binary 
+
+# --- Web Scraping (برای بخش Scraper پروژه شما) ---
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+
+# --- Utilities ---
+python-dotenv
+arabic-reshaper
+python-bidi
+
+# --- Networking (برای تست محلی) ---
+# ngrok را باید جداگانه از سایت خودش نصب کنید، اما این برای پایداری است
