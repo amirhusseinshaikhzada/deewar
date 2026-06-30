@@ -15,7 +15,7 @@ class DatabaseManager:
             keyword TEXT,
             city TEXT,
             price REAL,
-            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+            timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
         """
         with self.engine.connect() as connection:
