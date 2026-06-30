@@ -11,7 +11,7 @@ class DatabaseManager:
         """ایجاد جدول در صورت عدم وجود"""
         query = """
         CREATE TABLE IF NOT EXISTS prices (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY,
             keyword TEXT,
             city TEXT,
             price REAL,
