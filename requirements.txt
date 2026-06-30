@@ -27,6 +27,7 @@ python-dotenv
 arabic-reshaper
 python-bidi
 gunicorn
+sklearn
 
 # --- Networking (برای تست محلی) ---
 # ngrok را باید جداگانه از سایت خودش نصب کنید، اما این برای پایداری است
