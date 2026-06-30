@@ -4,6 +4,7 @@ werkzeug
 
 # --- Telegram Bot API ---
 python-telegram-bot
+pyTelegramBotAPI
 
 # --- Data Analysis & Science ---
 pandas
