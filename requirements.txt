@@ -29,8 +29,6 @@ gunicorn
 scikit-learn
 openai
 requests
-BeautifulSoup
-datetime
 
 # --- Networking (برای تست محلی) ---
 # ngrok را باید جداگانه از سایت خودش نصب کنید، اما این برای پایداری است
