@@ -28,6 +28,7 @@ arabic-reshaper
 python-bidi
 gunicorn
 scikit-learn
+openai
 
 # --- Networking (برای تست محلی) ---
 # ngrok را باید جداگانه از سایت خودش نصب کنید، اما این برای پایداری است
