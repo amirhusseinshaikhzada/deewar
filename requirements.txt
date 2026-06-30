@@ -3,7 +3,6 @@ flask
 werkzeug
 
 # --- Telegram Bot API ---
-python-telegram-bot
 pyTelegramBotAPI
 
 # --- Data Analysis & Science ---
@@ -15,7 +14,7 @@ matplotlib
 sqlalchemy
 # برای استفاده از sqlite نیاز به نصب اضافی نیست، اما اگر بخواهید از PostgreSQL استفاده کنید:
 # psycopg2-binary 
-
+psycopg2-binary
 # --- Web Scraping (برای بخش Scraper پروژه شما) ---
 requests
 beautifulsoup4
@@ -29,6 +28,9 @@ python-bidi
 gunicorn
 scikit-learn
 openai
+requests
+BeautifulSoup
+datetime
 
 # --- Networking (برای تست محلی) ---
 # ngrok را باید جداگانه از سایت خودش نصب کنید، اما این برای پایداری است
