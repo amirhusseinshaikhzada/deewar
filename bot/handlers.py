@@ -1,4 +1,5 @@
-import telebot
+from scraper.deewar_engine import DeewarScraper
+from analyzer.price_analyzer import PriceAnalyzer
 from telebot import types
 from bot import messages
 
@@ -52,6 +53,9 @@ def register_handlers(bot):
         # اینجا باید چک کنیم آیا کاربر شهر را انتخاب کرده یا نه
         # فعلاً یک پاسخ نمایشی می‌دهیم
         bot.reply_to(message, messages.SEARCHING_MESSAGE)
+        DeewarScraper()
+        PriceAnalyzer()
+        bot.reply_to(message , messages.RESULT_MESSAGE_TEMPLATE)
         
         # در مراحل بعد:
         # 1. Scraper را صدا می‌زنیم
